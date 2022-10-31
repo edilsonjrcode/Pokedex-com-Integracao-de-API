@@ -1,0 +1,44 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #F6F8FC;
+}
+
+#header {
+    width: 100%;
+    height: 10vh;
+    background-color: rgb(212, 0, 0);
+    color: #fff;
+    text-align: center;
+    margin: 0;
+    padding: 1px;
+
+}
+
+#header img {
+    width: 23vh;
+}
+
+.content{
+    padding: 1rem;
+    background-color: #fff;
+    height: 100vh;
+    width: 100vw;
+}
+
+.content img {
+    margin-left: 0.5rem;
+}
+
+@media screen and (min-width: 992px){
+    .content{
+        max-width: 992px;
+        height: auto;
+        margin: 0 auto;
+        border-radius: 1rem;
+    }
+} 
+
